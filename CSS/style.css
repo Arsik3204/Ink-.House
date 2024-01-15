@@ -1,0 +1,135 @@
+@charset "utf-8";
+*{padding: 0px; margin: 0px; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+/*font-family: 'Raleway', sans-serif;*/
+
+.container {
+    height: 100px;
+    background: #E1EDE6;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 1030px;
+}
+
+.logo-svg {
+    width: 60px;
+    height: 60px;
+}
+
+.logo-text {
+    position: absolute;
+    top: 34px;
+    left: 1100px;
+    color: #598D66;
+    font-family: 'Raleway', sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar {
+    position: absolute;
+    top: 34px;
+    right: 1000px;
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #2C2D35;
+    font-family: 'Raleway', sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 60px;
+}
+
+.pigeon {
+    position: absolute;
+
+    top: 230px;
+    left: 800px;
+}
+
+.pigeon img {
+    width: 800px;
+}
+
+.main-text {
+    position: absolute;
+
+    top: 400px;
+    right: 800px;
+
+    width: 850px;
+}
+
+.main-text p {
+    color: #2C2D35;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.main-text span {
+    color: #598D66;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.subtext-main {
+    position: absolute;
+
+    top: 650px;
+    right: 606px;
+
+    width: 1040px;
+    color: #86928B;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.button-main {
+    position: absolute;
+
+    top: 860px;
+    left: 1796px;
+
+    display: inline-flex;
+    height: 125px;
+    width: 450px;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    border: 1px solid #598D66;
+    transition-duration: 15s;
+    transition-timing-function: ease-in;
+}
+
+.button-main a {
+    text-decoration: none;
+    color: #598D66;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button-main:hover {
+    cursor: pointer;
+    transform: rotate(1260rad);
+}
