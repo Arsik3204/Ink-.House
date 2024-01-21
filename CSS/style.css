@@ -133,3 +133,54 @@
     cursor: pointer;
     transform: rotate(1260rad);
 }
+
+/*header media screen*/
+@media (max-width: 1920px) {
+
+.container {
+    width: 1920px;
+    height: 100px;
+}
+
+.navbar {
+    position: absolute;
+    right: 100px;
+}
+
+.logo-svg {
+    position: absolute;
+    right: 810px;
+}
+
+.logo-text {
+    position: absolute;
+    left: 240px;
+}
+
+.main-text {
+   position: absolute;
+    top: 280px;
+   right: 150px;
+}
+
+.subtext-main {
+    position: absolute;
+    top: 540px;
+    right: -44px;
+}
+
+.pigeon {
+    position: absolute;
+    left: 150px;
+}
+
+.pigeon img {
+    width: 650px;
+}
+
+.button-main {
+    position: absolute;
+    top: 670px;
+    left: 926px;
+}
+}
