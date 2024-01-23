@@ -138,7 +138,7 @@
 @media (max-width: 1920px) {
 
 .container {
-    width: 1920px;
+    width: 1902px;
     height: 100px;
 }
 
@@ -164,9 +164,11 @@
 }
 
 .subtext-main {
-    position: absolute;
-    top: 540px;
-    right: -44px;
+    position: relative;
+    top: 548px;
+    left: 900px;
+    width: 900px;
+    font-size: 28px;
 }
 
 .pigeon {
@@ -181,6 +183,6 @@
 .button-main {
     position: absolute;
     top: 670px;
-    left: 926px;
+    left: 900px;
 }
 }
