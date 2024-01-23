@@ -89,10 +89,10 @@
 .subtext-main {
     position: absolute;
 
-    top: 650px;
-    right: 606px;
+    top: 666px;
+    right: 550px;
 
-    width: 1040px;
+    width: 1100px;
     color: #86928B;
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
@@ -104,7 +104,7 @@
     position: absolute;
 
     top: 860px;
-    left: 1796px;
+    left: 1792px;
 
     display: inline-flex;
     height: 125px;
