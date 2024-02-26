@@ -6,13 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="CSS/style.css">
-    <script src="JavaScript/script.js"></script>
     <title>Ink.House</title>
 </head>
 <body bgcolor="#F4F6F5">
 
 <header class="header">
-
     <div class="container menu">
         <ul class="navbar">
             <li class="link_navbar"><a href="#">Репродукции</a></li>
@@ -75,11 +73,36 @@
         </div>
 
     </div>
-
-
-
-
 </header>
 
+
+<main class="main">
+
+    <div class="tabs">
+        <div role="tablist" aria-label="Streaming Content">
+            <button role="tab" aria-selected="true" id="france">
+                Франция
+            </button>
+            <button role="tab" aria-selected="false" id="germany">
+                Германия
+            </button>
+            <button role="tab" aria-selected="false" id="england">
+               Англия
+            </button>
+        </div>
+        <div role="tabpanel" aria-labelledby="france">
+           <p> Что-то про францию</p>
+        </div>
+        <div role="tabpanel" aria-labelledby="germany" hidden>
+            <p> Что-то про германию</p>
+        </div>
+        <div role="tabpanel" aria-labelledby="england" hidden>
+            <p> Что-то про англию</p>
+        </div>
+    </div>
+</main>
+
+
+<script src="JavaScript/script.js"></script>
 </body>
 </html>
